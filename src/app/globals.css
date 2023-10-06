@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.customers{
+    background-color:#292526;
+    
+}
+
+.mobile_view{
+    background-color: #91CFD2;
+}
+
+.cards_payment{
+    background-color: #FF734F;
+}
+
+.footer{
+    background-color: #1D1D1D;
+}
+
+.footer1{
+    padding: 3rem 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:650px) {
+    .navbar_logo img{
+        height: 1.5rem !important;
+    }
+
+    .headline_herosection{
+        padding: 2rem;
+    }
+
+    .price_website{
+        flex-direction: column;
+    }
+
+    .footer1{
+        flex-direction: column;
+    }
+    .contact_optons_footer{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .fotter_menu{
+        align-items: center !important;
+        padding: 1rem;
+    }
+    .whatweworkpage{
+        padding: 0 1rem;
+    }
+    .projectworks{
+        padding: 0 1rem;
+    }
+    .mobile_view{
+        flex-direction: column;
+    }
+    .footer_logo{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .headline_herosection{
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .herosection button{
+        margin: 1rem;
+    }
+
+    .mobile_view{
+        margin: 1rem;
+    }
+
+    .best_policies{
+        flex-direction: column;
+    }
+    .herosection{
+        overflow: hidden;
+    }
+
+    .customers_logo{
+        flex-direction: column;
+    }
+
+    .whatweworkpage{
+        padding: 2rem;
+    }
+
+    .customers{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .whatwework_blocks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectworks{
+        padding: 2rem;
+    }
+    .projects_blocks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .block_work{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+    }
+
+    .block_project{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+    }
+
+    .accordian{
+        padding: 1rem;
+    }
+
+    .accordian_h1{
+        padding: 2rem 0;
+    }
+
+    .build_togetheir{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
